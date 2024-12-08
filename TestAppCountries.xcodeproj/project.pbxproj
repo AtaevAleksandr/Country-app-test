@@ -8,17 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		5B10A0802D020DC00017DB33 /* TestAppCountriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A07F2D020DC00017DB33 /* TestAppCountriesApp.swift */; };
-		5B10A0822D020DC00017DB33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A0812D020DC00017DB33 /* ContentView.swift */; };
+		5B10A0822D020DC00017DB33 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A0812D020DC00017DB33 /* HomeView.swift */; };
 		5B10A0842D020DC10017DB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B10A0832D020DC10017DB33 /* Assets.xcassets */; };
 		5B10A0872D020DC10017DB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B10A0862D020DC10017DB33 /* Preview Assets.xcassets */; };
+		5B10A0922D02139F0017DB33 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A0912D02139F0017DB33 /* Country.swift */; };
+		5B1447732D064330009C3B27 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5B1447722D064330009C3B27 /* Config.xcconfig */; };
+		5B1447772D064B07009C3B27 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1447762D064B07009C3B27 /* ConfigKeys.swift */; };
+		5B1479A02D03205C0063365C /* CountryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14799F2D03205C0063365C /* CountryRowView.swift */; };
+		5B2975EF2D0222D2001D2D80 /* ListCountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2975EE2D0222D2001D2D80 /* ListCountriesView.swift */; };
+		5B2975F22D0225E7001D2D80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2975F12D0225E7001D2D80 /* NetworkManager.swift */; };
+		5B2975F52D025329001D2D80 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2975F42D025329001D2D80 /* SVGKit */; };
+		5B2975F72D025329001D2D80 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2975F62D025329001D2D80 /* SVGKitSwift */; };
+		5B2975F92D02691B001D2D80 /* SVGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2975F82D02691B001D2D80 /* SVGImageView.swift */; };
+		5B2975FC2D026A28001D2D80 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2975FB2D026A28001D2D80 /* CountriesViewModel.swift */; };
+		5B837F4C2D04472500D6BA4F /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837F4B2D04472500D6BA4F /* FileManager.swift */; };
+		5B8B7C232D035CAB00B3BB25 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B7C222D035CAB00B3BB25 /* CountryDetailView.swift */; };
+		5B8B7C252D036E6D00B3BB25 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B7C242D036E6D00B3BB25 /* CircleImage.swift */; };
+		5B8B7C272D03811C00B3BB25 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B7C262D03811C00B3BB25 /* MapView.swift */; };
+		5B8B7C292D039F2E00B3BB25 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B7C282D039F2E00B3BB25 /* FavoriteButton.swift */; };
+		5B8B7C2C2D03A13C00B3BB25 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B7C2B2D03A13C00B3BB25 /* FavoritesList.swift */; };
+		5B9787B92D04E19800C1DEA7 /* FavoriteCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9787B82D04E19800C1DEA7 /* FavoriteCountry.swift */; };
+		5BB76D342D05A2F7005E2D85 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5BB76D332D05A2F7005E2D85 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B10A07C2D020DC00017DB33 /* TestAppCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B10A07F2D020DC00017DB33 /* TestAppCountriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppCountriesApp.swift; sourceTree = "<group>"; };
-		5B10A0812D020DC00017DB33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B10A0812D020DC00017DB33 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5B10A0832D020DC10017DB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B10A0862D020DC10017DB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B10A0912D02139F0017DB33 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5B1447722D064330009C3B27 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		5B1447752D0649A8009C3B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B1447762D064B07009C3B27 /* ConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
+		5B14799F2D03205C0063365C /* CountryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRowView.swift; sourceTree = "<group>"; };
+		5B2975EE2D0222D2001D2D80 /* ListCountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCountriesView.swift; sourceTree = "<group>"; };
+		5B2975F12D0225E7001D2D80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B2975F82D02691B001D2D80 /* SVGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImageView.swift; sourceTree = "<group>"; };
+		5B2975FB2D026A28001D2D80 /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		5B837F4B2D04472500D6BA4F /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		5B8B7C222D035CAB00B3BB25 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		5B8B7C242D036E6D00B3BB25 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5B8B7C262D03811C00B3BB25 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5B8B7C282D039F2E00B3BB25 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		5B8B7C2B2D03A13C00B3BB25 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		5B9787B82D04E19800C1DEA7 /* FavoriteCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCountry.swift; sourceTree = "<group>"; };
+		5BB76D332D05A2F7005E2D85 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +61,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2975F72D025329001D2D80 /* SVGKitSwift in Frameworks */,
+				5B2975F52D025329001D2D80 /* SVGKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B07D6582D046BE80077D667 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B2975F82D02691B001D2D80 /* SVGImageView.swift */,
+				5B8B7C242D036E6D00B3BB25 /* CircleImage.swift */,
+				5B8B7C262D03811C00B3BB25 /* MapView.swift */,
+				5B8B7C282D039F2E00B3BB25 /* FavoriteButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B07D6592D046BF50077D667 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5B2975F12D0225E7001D2D80 /* NetworkManager.swift */,
+				5B837F4B2D04472500D6BA4F /* FileManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		5B10A0732D020DC00017DB33 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +108,14 @@
 		5B10A07E2D020DC00017DB33 /* TestAppCountries */ = {
 			isa = PBXGroup;
 			children = (
-				5B10A07F2D020DC00017DB33 /* TestAppCountriesApp.swift */,
-				5B10A0812D020DC00017DB33 /* ContentView.swift */,
-				5B10A0832D020DC10017DB33 /* Assets.xcassets */,
-				5B10A0852D020DC10017DB33 /* Preview Content */,
+				5B1447752D0649A8009C3B27 /* Info.plist */,
+				5B10A08D2D02100C0017DB33 /* App */,
+				5B2975F02D0225DA001D2D80 /* Helper */,
+				5B10A08E2D0212010017DB33 /* Model */,
+				5B2975ED2D0222B8001D2D80 /* View */,
+				5B2975FA2D02696F001D2D80 /* ViewModel */,
+				5BB76D302D05A049005E2D85 /* Localizable */,
+				5B1447742D064340009C3B27 /* Config */,
 			);
 			path = TestAppCountries;
 			sourceTree = "<group>";
@@ -65,6 +126,95 @@
 				5B10A0862D020DC10017DB33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B10A08D2D02100C0017DB33 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A07F2D020DC00017DB33 /* TestAppCountriesApp.swift */,
+				5B10A0832D020DC10017DB33 /* Assets.xcassets */,
+				5B10A0852D020DC10017DB33 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B10A08E2D0212010017DB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A0912D02139F0017DB33 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B1447742D064340009C3B27 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5B1447722D064330009C3B27 /* Config.xcconfig */,
+				5B1447762D064B07009C3B27 /* ConfigKeys.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5B2975ED2D0222B8001D2D80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A0812D020DC00017DB33 /* HomeView.swift */,
+				5B8B7C212D035C9400B3BB25 /* CountryList */,
+				5B8B7C2A2D03A11400B3BB25 /* FavoritesList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B2975F02D0225DA001D2D80 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5B9787B72D04E18800C1DEA7 /* SwiftData */,
+				5B07D6592D046BF50077D667 /* Manager */,
+				5B07D6582D046BE80077D667 /* View */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5B2975FA2D02696F001D2D80 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B2975FB2D026A28001D2D80 /* CountriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B8B7C212D035C9400B3BB25 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				5B2975EE2D0222D2001D2D80 /* ListCountriesView.swift */,
+				5B14799F2D03205C0063365C /* CountryRowView.swift */,
+				5B8B7C222D035CAB00B3BB25 /* CountryDetailView.swift */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		5B8B7C2A2D03A11400B3BB25 /* FavoritesList */ = {
+			isa = PBXGroup;
+			children = (
+				5B8B7C2B2D03A13C00B3BB25 /* FavoritesList.swift */,
+			);
+			path = FavoritesList;
+			sourceTree = "<group>";
+		};
+		5B9787B72D04E18800C1DEA7 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				5B9787B82D04E19800C1DEA7 /* FavoriteCountry.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		5BB76D302D05A049005E2D85 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				5BB76D332D05A2F7005E2D85 /* Localizable.xcstrings */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +233,10 @@
 			dependencies = (
 			);
 			name = TestAppCountries;
+			packageProductDependencies = (
+				5B2975F42D025329001D2D80 /* SVGKit */,
+				5B2975F62D025329001D2D80 /* SVGKitSwift */,
+			);
 			productName = TestAppCountries;
 			productReference = 5B10A07C2D020DC00017DB33 /* TestAppCountries.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +263,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 5B10A0732D020DC00017DB33;
+			packageReferences = (
+				5B2975F32D025329001D2D80 /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
 			productRefGroup = 5B10A07D2D020DC00017DB33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +283,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1447732D064330009C3B27 /* Config.xcconfig in Resources */,
 				5B10A0872D020DC10017DB33 /* Preview Assets.xcassets in Resources */,
 				5B10A0842D020DC10017DB33 /* Assets.xcassets in Resources */,
+				5BB76D342D05A2F7005E2D85 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +297,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B10A0822D020DC00017DB33 /* ContentView.swift in Sources */,
+				5B8B7C252D036E6D00B3BB25 /* CircleImage.swift in Sources */,
+				5B1447772D064B07009C3B27 /* ConfigKeys.swift in Sources */,
+				5B10A0822D020DC00017DB33 /* HomeView.swift in Sources */,
+				5B2975EF2D0222D2001D2D80 /* ListCountriesView.swift in Sources */,
+				5B837F4C2D04472500D6BA4F /* FileManager.swift in Sources */,
+				5B8B7C292D039F2E00B3BB25 /* FavoriteButton.swift in Sources */,
+				5B8B7C272D03811C00B3BB25 /* MapView.swift in Sources */,
+				5B2975FC2D026A28001D2D80 /* CountriesViewModel.swift in Sources */,
+				5B8B7C232D035CAB00B3BB25 /* CountryDetailView.swift in Sources */,
+				5B2975F22D0225E7001D2D80 /* NetworkManager.swift in Sources */,
+				5B10A0922D02139F0017DB33 /* Country.swift in Sources */,
 				5B10A0802D020DC00017DB33 /* TestAppCountriesApp.swift in Sources */,
+				5B1479A02D03205C0063365C /* CountryRowView.swift in Sources */,
+				5B9787B92D04E19800C1DEA7 /* FavoriteCountry.swift in Sources */,
+				5B2975F92D02691B001D2D80 /* SVGImageView.swift in Sources */,
+				5B8B7C2C2D03A13C00B3BB25 /* FavoritesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +321,7 @@
 /* Begin XCBuildConfiguration section */
 		5B10A0882D020DC10017DB33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1447722D064330009C3B27 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -197,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -210,6 +385,7 @@
 		};
 		5B10A0892D020DC10017DB33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1447722D064330009C3B27 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -254,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -266,20 +442,24 @@
 		};
 		5B10A08B2D020DC10017DB33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1447722D064330009C3B27 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TestAppCountries/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestAppCountries/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 695W8CRMKH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAppCountries/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Countries";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +467,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AtaevAleksandr.TestAppCountries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,20 +479,24 @@
 		};
 		5B10A08C2D020DC10017DB33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1447722D064330009C3B27 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TestAppCountries/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TestAppCountries/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 695W8CRMKH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAppCountries/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Countries";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +504,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AtaevAleksandr.TestAppCountries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +536,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B2975F32D025329001D2D80 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B2975F42D025329001D2D80 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B2975F32D025329001D2D80 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		5B2975F62D025329001D2D80 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B2975F32D025329001D2D80 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B10A0742D020DC00017DB33 /* Project object */;
 }

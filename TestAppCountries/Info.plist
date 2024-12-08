@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DISK_CACHE</key>
+	<string>$(DISK_CACHE)</string>
+	<key>COUNTRIES_URL</key>
+	<string>$(COUNTRIES_URL)</string>
+	<key>CACHE_KEY</key>
+	<string>$(CACHE_KEY)</string>
+	<key>SUBDIRECTORY_CACHE</key>
+	<string>$(SUBDIRECTORY_CACHE)</string>
+</dict>
+</plist>

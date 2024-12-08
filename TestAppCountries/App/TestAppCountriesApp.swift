@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct TestAppCountriesApp: App {
+
+    @StateObject private var countriesViewModel = CountriesViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .modelContainer(for: [FavoriteCountry.self])
+                .environmentObject(countriesViewModel)
         }
     }
 }

@@ -1,0 +1,18 @@
+//
+//  Config.xcconfig
+//  TestAppCountries
+//
+//  Created by Aleksandr Ataev on 09.12.2024.
+//
+
+// API URL
+COUNTRIES_URL = https:/$()/restcountries.com/v3.1/all
+
+// Cache Key
+CACHE_KEY = countriesList
+
+// Disk Cache
+DISK_CACHE = DiskCache
+
+// Subdirectory Cache
+SUBDIRECTORY_CACHE = CountriesCache
