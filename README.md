@@ -14,7 +14,8 @@
 - **Технологии локализации**: `Localizable.xcstrings` для локализации сообщений в приложении.
 - **Архитектура**: MVVM
 <div>
-  <img src="Screens/IMG_6967.PNG" width="270" />
-  <img src="Screens/IMG_6968.PNG" width="270" />
-  <img src="Screens/IMG_6969.PNG" width="270" />
+  <img src="Screens/1.png" width="200" />
+  <img src="Screens/2.png" width="200" />
+  <img src="Screens/3.png" width="200" />
+  <img src="Screens/4.png" width="200" />
 </div>
